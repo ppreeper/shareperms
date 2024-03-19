@@ -1,2 +1,2 @@
 # shareperms
-a python script to set file acls on a samba server based on specifications in a yaml file
+a program to set file acls on a samba server based on specifications in a yaml file
