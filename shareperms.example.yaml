@@ -1,0 +1,61 @@
+shares:
+  - name: drawings
+    directory: /share/drawings
+    perms:
+      groups:
+        - domain: EXAMPLEDOMAIN
+          name: domain admins
+          permission: rwx
+        - domain: EXAMPLEDOMAIN
+          name: domain users
+          permission: r-x
+      users:
+      other:
+  - name: labels
+    directory: /share/labels
+    perms:
+      groups:
+        - domain: EXAMPLEDOMAIN
+          name: domain admins
+          permission: rwx
+        - domain: EXAMPLEDOMAIN
+          name: domain users
+          permission: r-x
+      users:
+      other:
+  - name: quality
+    directory: /share/quality
+    perms:
+      groups:
+        - domain: EXAMPLEDOMAIN
+          name: domain admins
+          permission: rwx
+        - domain: EXAMPLEDOMAIN
+          name: domain users
+          permission: r-x
+        - domain: EXAMPLEDOMAIN
+          name: QCMANAGEMENT
+          permission: rwx
+        - domain: EXAMPLEDOMAIN
+          name: QCTEAM
+          permission: rwx
+      users:
+      other:
+  - name: rd_quality_management
+    directory: /share/quality/management
+    perms:
+      groups:
+        - domain: EXAMPLEDOMAIN
+          name: domain admins
+          permission: rwx
+        - domain: EXAMPLEDOMAIN
+          name: domain users
+          permission: r-x
+        - domain: EXAMPLEDOMAIN
+          name: QCMANAGEMENT
+          permission: rwx
+        - domain: EXAMPLEDOMAIN
+          name: QCTEAM
+          permission: r-x
+      users:
+      other:
